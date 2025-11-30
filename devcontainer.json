@@ -1,0 +1,26 @@
+{
+    "name": "GUI Codespace",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    
+    // Automatically run the install script when the codespace is created
+    "postCreateCommand": "bash install.sh",
+
+    // Expose the noVNC port so you can access it in the browser
+    "forwardPorts": [6080],
+
+    "portsAttributes": {
+        "6080": {
+            "label": "Desktop GUI",
+            "onAutoForward": "notify"
+        }
+    },
+
+    // Optional: VS Code extensions to make life easier
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
