@@ -10,16 +10,16 @@ This project provides an accessible desktop environment, designed to be run in a
 The setup consists of several components working together:
 
 
-- **Desktop Environment (XFCE):** A lightweight and stable desktop interface.
+- **`Desktop Environment (XFCE):`** A lightweight and stable desktop interface.
 
 
-- **Virtual Display (Xvfb):** Creates a "virtual" screen in memory, so no physical monitor is needed.
+- **`Virtual Display (Xvfb):`** Creates a "virtual" screen in memory, so no physical monitor is needed.
 
 
-- **VNC Server (x11vnc):** Broadcasts the virtual screen's content.
+- **`VNC Server (x11vnc):`** Broadcasts the virtual screen's content.
 
 
-- **Web Client (noVNC):** A modern HTML5 client that allows you to access the VNC session directly from your browser.
+- **`Web Client (noVNC):`** A modern HTML5 client that allows you to access the VNC session directly from your browser.
 
 
 ## Files
