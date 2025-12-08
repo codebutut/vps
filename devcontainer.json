@@ -1,6 +1,6 @@
 {
     "name": "GUI Codespace",
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "kalilinux/kali-rolling:latest",
     
     // Automatically run the install script when the codespace is created
     "postCreateCommand": "bash install.sh",
