@@ -69,12 +69,12 @@ The setup consists of several components working together:
     ./install.sh
     ```
 
-    **Start the Desktop:** Once the environment is ready, run the `start.sh` script:
+    - **Start the Desktop:** Once the environment is ready, run the `start.sh` script:
     ```bash
     ./start.sh
     ```
 
-2.  - **Access the GUI:** A port forwarding notification should appear for port `6080`. Open this port in your browser to access the desktop GUI.
+2. **Access the GUI:** A port forwarding notification should appear for port `6080`. Open this port in your browser to access the desktop GUI.
 
 
 3.  **Keep Terminal Alive (Optional):** If you need to keep a terminal session active for a long period, you can run the keep-alive script:
