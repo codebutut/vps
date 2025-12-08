@@ -11,8 +11,8 @@ echo "----------------------------------------------------------------"
 # xvfb: 'Fake' screen (X Virtual Framebuffer)
 # x11vnc: VNC Server to broadcast the fake screen
 echo "Installing XFCE4, Xvfb, and VNC tools..."
-sudo apt-get update
-sudo apt-get install -y xfce4 xfce4-goodies xvfb x11vnc net-tools python3-numpy dbus-x11
+sudo apt update
+sudo apt install -y xfce4 xfce4-goodies xvfb x11vnc net-tools python3-numpy dbus-x11 firefox
 
 # 2. Install noVNC (The HTML5 VNC Client)
 # We clone specifically to /opt/novnc to keep it organized
