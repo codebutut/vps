@@ -64,18 +64,20 @@ The setup consists of several components working together:
 ## How to Use
 
 
-1.  **Launch the Environment:** If you are using a service like GitHub Codespaces, this environment should be set up automatically based on the `devcontainer.json` file. The `install.sh` script will run on its own.
+1.  **Launch the Environment:** Run `install.sh` script will run on its own.
+    ```bash
+    ./install.sh
+    ```
 
-
-2.  **Start the Desktop:** Once the environment is ready, run the `start.sh` script:
+    **Start the Desktop:** Once the environment is ready, run the `start.sh` script:
     ```bash
     ./start.sh
     ```
 
-3.  **Access the GUI:** A port forwarding notification should appear for port `6080`. Open this port in your browser to access the desktop GUI.
+2.  **Access the GUI:** A port forwarding notification should appear for port `6080`. Open this port in your browser to access the desktop GUI.
 
 
-4.  **Keep Terminal Alive (Optional):** If you need to keep a terminal session active for a long period, you can run the keep-alive script:
+3.  **Keep Terminal Alive (Optional):** If you need to keep a terminal session active for a long period, you can run the keep-alive script:
     ```bash
     python3 terminal_keep_live.py
     ```
